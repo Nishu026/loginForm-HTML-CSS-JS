@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    img{
+      position: absolute;
+      width: 130px;
+      height: 100px;
+      border-radius: 10px 10px  50% 50%;
+      top: 7.5%;
+      left: 45.5%;
+      overflow: hidden;
+      border: 2px solid #003366;
+    }
+  </style>
+</head>
+<body>
+  <img class="img" src="https://thumb.ac-illust.com/81/81d13fe79a04eb90f525c4ae05094e63_t.jpeg" ></img>
+
+<div class="wrapper">
+      <div class="form-container">
+        <div class="slide-controls">
+
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+       
+          <label for="login" class="slide login">Register</label>
+          <label for="signup" class="slide signup">Login</label>
+          <div class="slider-tab" ></div>
+        </div>
+        <div class="form-inner">
+          <form action="#" class="login">
+            <pre>
+            </pre>
+            <div class="field">
+              <input type="text" placeholder="username" style="background-color: rgb(231, 227, 227); ">
+            </div>
+            <div class="field">
+              <input type="email" placeholder="email" style="background-color: rgb(231, 227, 227); " >
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Password" style="background-color: rgb(231, 227, 227); ">
+            </div>
+            <div class="field">
+              <input type="password" placeholder="confirm Password" style="background-color: rgb(231, 227, 227); ">
+            </div>
+            <div class="pass-link"><input type="checkbox"> I Accept the<a href="#"> Terms and conditions</a></div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Register" onclick="alert('User Register Successfully')">
+            </div>
+          </form>
+          <form action="#" class="signup">
+            <div class="field">
+              <input type="text" placeholder="username" style="background-color: rgb(231, 227, 227); ">
+            </div>
+            
+            <div class="field">
+              <input type="password" placeholder="Password" style="background-color: rgb(231, 227, 227); ">
+            </div>
+            <div class="pass-link"><input type="checkbox"> <i>Remember me</i><a href="#" style="margin-left: 70px;">Forgot password?</a></div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              
+              <input type="submit" value="Login">
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
